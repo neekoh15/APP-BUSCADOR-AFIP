@@ -125,9 +125,9 @@ class VModel:
         - id (str): ID del tag a buscar.
         
         Returns:
-        - dict: Datos del tag o un diccionario vacío si no se encuentra.
+        - list: Datos del tag o un diccionario vacío si no se encuentra.
         """
         print('[GET BY ID]')
         if self.tags_data.get(id):
-            return {'id': id, 'match': self.tags_data[id][0]}
-        return {}
+            return [{'id': id, 'match': self.tags_data[id][0]}]
+        return [{}]
