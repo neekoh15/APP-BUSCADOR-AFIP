@@ -1,8 +1,3 @@
-# APP-BUSCADOR-AFIP
-
-Claro, aquí tienes el texto formateado de manera bonita para que se vea bien en un repositorio de GitHub:
-
-
 # Módulo VModel para la Vectorización de Texto y Búsqueda de Coincidencias en Tags
 
 ## Autor
@@ -58,4 +53,3 @@ Se carga el archivo tags.json a través del modelo VModel y se inicializa la apl
 **Entrada:** JSON con el campo text.  
 **Salida:** JSON con las similitudes encontradas.  
 **Errores:** Si ocurre un error durante la ejecución, se imprime el error y se devuelve un objeto JSON vacío.
-```
